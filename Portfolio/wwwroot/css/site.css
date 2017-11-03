@@ -1,0 +1,117 @@
+﻿footer {
+    text-align: center;
+}
+
+.fa {
+    color: black;
+}
+
+.fa:hover {
+    color: #777;
+}
+
+/* Home Page*/
+
+.home-container {
+    margin: 0;
+    padding: 0;
+    width:100%;
+    color:white;
+    margin-bottom: -17px;
+}
+
+#home-image {
+    width:100%;
+}
+
+table {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+td h1 {
+    font-size: 5em;
+}
+
+td h3 {
+    margin-top:10px;
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 1000px) {
+    td h1 {
+        font-size: 3em;
+    }
+
+    td h3 {
+        margin-top: 5px;
+        font-size:1em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    td h1 {
+        font-size: 2em;
+    }
+
+    td h3 {
+        font-size: 0.7em;
+    }
+}
+
+/*
+.home-container h1 {
+    position:absolute;
+    left: 20%;
+    top: 40%;
+    font-size:5em;
+}
+
+.home-container h3 {
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    font-size:1.5em;
+}
+*/
+
+/* About Page*/
+
+.header {
+    text-align: center;
+    margin: auto;
+    padding: 1.5em 0;
+}
+
+.header p {
+    margin-top: 2em;
+    line-height: 2em;
+}
+
+.header img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top:15px;
+}
+
+/* Projects Page */
+
+.project-title {
+    margin-top:15px;
+    text-align:center;
+}
+
+.project-card {
+    text-align:center;
+    margin: 15px;
+    width: 30%;
+    display:inline-block;
+}
+
+.project-card .card-block .card-title {
+    border-bottom: 1px solid #ddd;
+}

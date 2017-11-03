@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Portfolio.Models.Github>
+
+<h3 class="project-title">My Most Starred Repos</h3>
+<div class="container projects-cards">
+    @foreach (var repo in Model)
+    {
+        <div class="card project-card">
+            <div class="card-block">
+                <p class="card-title"><a href=@repo.Html_url>@repo.Name</a></p>
+                <p>Written In: @repo.Language</p>
+                <p>Stars: @repo.Stargazers_count</p>
+            </div>
+        </div>
+    }
+</div>
